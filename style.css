@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    /* background-color: black; */
+    /* transition: 1s; */
+}
+.main{
+   height: 100vh; /*  ceter me kre k lye */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.container{
+   
+    border-radius: 2px;
+    width: 350px ;
+    height: 100px;
+    background-color: #fff;
+}
+.container h2{
+    font-size: 40px;
+    text-align: center;
+}
+.container button{
+    font-weight: bold;
+    color: #fff;
+    background-color: black;
+    border-radius: 2px;
+    margin-left: 20px;
+    font-size: 25px;
+    width: 90%;
+    height: 40px;
+}
